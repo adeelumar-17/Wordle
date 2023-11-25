@@ -32,6 +32,7 @@ int main()
 	play(word);
 	return 0;
 }
+/* A function for that displays the menu and takes the input from the menu */
 int gameLevel()
 {
 	int lvl = 0;
