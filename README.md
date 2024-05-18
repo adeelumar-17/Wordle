@@ -1,15 +1,40 @@
- 
-# A Simple Word guesing games using the language C++
-Implemented Words from the Alphabets
-### Current Difficulty Levels:
-- [x] Beginner
-- [x] Intermediate
-- [x] Expert
-## Levels
-When you run the game it pops a menus Asking you to choose your diffulcty from the above three diccifulties 
-#### Beginner:
-              In this difficulty the word to be guessed is 4 letters long you are given 5 tries to guess the world if you fail to guess the word between these tries the game shows you the message "Better luck next time" and the program exits.
-#### Intermediate:
-                  In this difficulty the word to be guessed is 5 letters long you are given 6 tries to guess the world if you fail to guess the word between these tries the game shows you the message "Better luck next time" and the program exits.
-#### Expert:
-            In this difficulty the word to be guessed is 6 letters long you are given 7 tries to guess the world if you fail to guess the word between these tries the game shows you the message "Better luck next time" and the program exits.
+# Wordle Game in C++
+
+This is a simple console-based implementation of the popular word puzzle game Wordle, written in C++.
+
+## How to Play
+
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+
+2. **Compile the Code**: Compile the `main.cpp` file using any C++ compiler. For example:
+
+3. **Run the Game**: Execute the compiled binary file to start the game.
+
+4. **Choose Difficulty Level**: Select a difficulty level - Beginner, Intermediate, or Expert.
+
+5. **Guess the Word**: Try to guess the hidden word within the specified number of attempts. Enter your guesses one by one.
+
+6. **Feedback**: After each guess, you'll receive feedback in the form of colored squares:
+- Green: Correct letter in the correct position.
+- Yellow: Correct letter in the wrong position.
+- Gray: Incorrect letter.
+
+7. **Win or Lose**: If you guess the word correctly within the allowed attempts, you win! Otherwise, you lose.
+
+## Features
+
+- Three difficulty levels: Beginner (4-letter word), Intermediate (5-letter word), and Expert (6-letter word).
+- Randomly selects words from a dictionary file based on the chosen difficulty level.
+- User-friendly interface with colored feedback for guesses.
+
+## Additional Notes
+
+- The dictionary files for each difficulty level are stored in the `Dictionary` directory. Each file contains words corresponding to a specific alphabet. For example, `A.txt` contains words starting with the letter 'A'.
+- To display feedback for guesses, the game utilizes background colors:
+- Green background indicates a correct letter in the correct position.
+- Red and green background indicates a correct letter in the wrong position.
+- Red background indicates an incorrect letter.
+
+## Customize and Extend
+
+Feel free to customize and expand upon this README as needed. Happy gaming! If you need any further assistance or have any questions, feel free to ask.
