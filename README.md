@@ -39,7 +39,7 @@ g++ main.cpp -o wordle
 - Green background indicates a correct letter in the correct position.
 - Red and green background indicates a correct letter in the wrong position.
 - Red background indicates an incorrect letter.
-<br> <br> Do have a look at the original version of this game.
+<br> 🎮 Do have a look at the original version of this game.
 [New York Times Wordle Game](https://www.nytimes.com/games/wordle/index.html).
 ## Customize and Extend
 
