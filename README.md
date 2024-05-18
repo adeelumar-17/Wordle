@@ -38,9 +38,9 @@ g++ main.cpp -o wordle
 - To display feedback for guesses, the game utilizes background colors:
 - Green background indicates a correct letter in the correct position.
 - Red and green background indicates a correct letter in the wrong position.
-- Red background indicates an incorrect letter.
-<br> 🎮 Do have a look at the original version of this game.
-[New York Times Wordle Game](https://www.nytimes.com/games/wordle/index.html).
+- Red background indicates an incorrect letter. <br>
+🎮 Do have a look at the original version of this game at
+[New York Times](https://www.nytimes.com/games/wordle/index.html).
 ## Customize and Extend
 
 Feel free to customize and expand upon this README as needed. Happy gaming! If you need any further assistance or have any questions, feel free to ask.
