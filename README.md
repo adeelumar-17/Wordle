@@ -1,7 +1,6 @@
 # Wordle Game in C++
 
 This is a simple console-based implementation of the popular word puzzle game Wordle, written in C++.
-
 ## How to Play
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
@@ -40,7 +39,8 @@ g++ main.cpp -o wordle
 - Green background indicates a correct letter in the correct position.
 - Red and green background indicates a correct letter in the wrong position.
 - Red background indicates an incorrect letter.
-
+<br>Do have a look at the original version of this game.
+[New York Times Wordle Game](https://www.nytimes.com/games/wordle/index.html).
 ## Customize and Extend
 
 Feel free to customize and expand upon this README as needed. Happy gaming! If you need any further assistance or have any questions, feel free to ask.
