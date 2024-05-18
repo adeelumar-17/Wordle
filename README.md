@@ -5,16 +5,14 @@ This is a simple console-based implementation of the popular word puzzle game Wo
 ## How to Play
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-2. ```cmd
+```cmd
 git clone <repository_url>
-```
 3. **Compile the Code**: Compile the `main.cpp` file using any C++ compiler. For example:
 ```cmd
 g++ main.cpp -o wordle
 4. **Run the Game**: Execute the compiled binary file to start the game.
 ```cmd
 ./wordle
-```
 5. **Choose Difficulty Level**: Select a difficulty level - Beginner, Intermediate, or Expert.
 
 6. **Guess the Word**: Try to guess the hidden word within the specified number of attempts. Enter your guesses one by one.
