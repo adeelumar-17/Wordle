@@ -21,7 +21,7 @@ g++ main.cpp -o wordle
 6. **Guess the Word**: Try to guess the hidden word within the specified number of attempts. Enter your guesses one by one.
 
 7. **Feedback**: After each guess, you'll receive feedback in the form of colored squares:
-- <span style="background-color:green">Green</span>: Correct letter in the correct position.
+- Green: Correct letter in the correct position.
 - Yellow: Correct letter in the wrong position.
 - Gray: Incorrect letter.
 
